@@ -15,6 +15,7 @@ Steps followed are:
 * I used the CIFAR-100 dataset. It has 100 classes with 600 images each. There are 500 training images and 100 testing images per class. 
 * The train dataset: validation dataset is 9 : 1.
 * Loss Functions used are:
+  
 a) **Content Loss**: Measures the difference between the content of the generated image and the content of the target image. It is usually the mean squared difference between the feature maps.
 
 b) **Style Loss**: Measures the difference between the style of the generated image and the style of the target image. It is calculated as the mean squared difference of the Gram matrices.
